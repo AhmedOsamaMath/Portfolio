@@ -2,12 +2,14 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
+import { 
+  FaLinkedinIn, FaKaggle 
+} from "react-icons/fa";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
+  AiFillYoutube,
   AiFillInstagram,
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
   return (
@@ -19,37 +21,13 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
-              <br />
-              <br />I am fluent in classics like
-              <i>
-                <b className="purple"> C++, Javascript and Go. </b>
-              </i>
-              <br />
-              <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
-              </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+              I fell in love with programming and data science, and I have learned a lot along the way, constantly striving to grow and improve.
+              <br /><br />
+              I am fluent in languages like <i><b className="purple">Python and SQL</b></i>, with experience in libraries such as <i><b className="purple">Pandas, NumPy, and TensorFlow</b></i>.
+              <br /><br />
+              My field of interest lies in <i><b className="purple">applying data science</b></i> to solve real-world problems, <i><b className="purple">building machine learning models</b></i>, and <i><b className="purple">exploring the potential of AI.</b></i>
+              <br /><br />
+              Whenever possible, I apply my passion for data by <i><b className="purple">developing insightful visualizations</b></i>, <i><b className="purple">creating predictive models</b></i>, and leveraging advanced techniques in machine learning and deep learning to turn raw data into <i><b className="purple">actionable insights.</b></i>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -67,27 +45,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiFillGithub />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://twitter.com/Soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/zold/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -97,7 +55,37 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="https://www.kaggle.com/ahmedosamamath"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <FaKaggle />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://github.com/AhmedOsamaMath"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <AiFillGithub />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://www.youtube.com/@AhmedOsamaMath"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <AiFillYoutube />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://www.instagram.com/AhmedOsamaMath"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"

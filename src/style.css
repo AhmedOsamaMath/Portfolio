@@ -155,8 +155,8 @@ button:focus {
 }
 
 .logo {
-  height: 1.4em !important;
-  width: 2.5em !important;
+  height: 1.6em !important;
+  /*width: 2.5em !important;*/
 }
 
 .navbar-nav .nav-link {
@@ -538,6 +538,13 @@ button:focus {
   padding-top: 10px !important;
 }
 
+.category-heading {
+  color: white !important;
+  font-size: 1.5em !important;
+  font-weight: 500 !important;
+  padding-top: 10px !important;
+}
+
 /* --------- */
 /* About */
 /* --------- */
@@ -611,8 +618,8 @@ button:focus {
 }
 
 .resume {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   justify-content: center;
 }
 
