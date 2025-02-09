@@ -4,7 +4,7 @@ Welcome to my portfolio website repository! This website showcases my journey as
 
 ## 🚀 Live Demo
 
-Visit my website: [Ahmed Osama](https://xao.vercel.app)
+Visit my website: [Ahmed Osama](https://ahmed.is-a.dev)
 
 ## 📫 Connect With Me
 
@@ -13,4 +13,4 @@ Visit my website: [Ahmed Osama](https://xao.vercel.app)
 [![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/ahmedosamamath)
 
 - 📧 Email: [ahmedosamamath@gmail.com](mailto:ahmedosamamath@gmail.com)
-- 🌐 Portfolio: [Ahmed Osama](https://xao.vercel.app)
+- 🌐 Portfolio: [Ahmed Osama](https://ahmed.is-a.dev)
