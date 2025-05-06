@@ -21,13 +21,13 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and data science, and I have learned a lot along the way, constantly striving to grow and improve.
+              I fell in love with programming and software development, and I’ve been on a continuous journey to build, learn, and grow as an engineer.
               <br /><br />
-              I am fluent in languages like <i><b className="purple">Python and SQL</b></i>, with experience in libraries such as <i><b className="purple">Pandas, NumPy, and TensorFlow</b></i>.
+              I am fluent in languages like <i><b className="purple">Python and JavaScript</b></i>, with experience in frameworks such as <i><b className="purple">React, Node.js, and Express</b></i>.
               <br /><br />
-              My field of interest lies in <i><b className="purple">applying data science</b></i> to solve real-world problems, <i><b className="purple">building machine learning models</b></i>, and <i><b className="purple">exploring the potential of AI.</b></i>
+              My field of interest lies in <i><b className="purple">developing full-stack applications</b></i>, <i><b className="purple">designing scalable backend systems</b></i>, and <i><b className="purple">solving real-world problems through code.</b></i>
               <br /><br />
-              Whenever possible, I apply my passion for data by <i><b className="purple">developing insightful visualizations</b></i>, <i><b className="purple">creating predictive models</b></i>, and leveraging advanced techniques in machine learning and deep learning to turn raw data into <i><b className="purple">actionable insights.</b></i>
+              Whenever possible, I apply my skills by <i><b className="purple">building responsive web apps</b></i>, <i><b className="purple">automating workflows</b></i>, and contributing to <i><b className="purple">open-source projects</b></i> that have real impact.
             </p>
           </Col>
           <Col md={4} className="myAvtar">

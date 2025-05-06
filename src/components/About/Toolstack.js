@@ -4,11 +4,12 @@ import { DiGit } from "react-icons/di";
 import {
   SiLinux,
   SiVisualstudiocode,
-  SiSpyderide,
-  SiAnaconda,
-  SiKaggle,
-  SiJupyter,
   SiDocker,
+  SiGithub,
+  SiPostman,
+  SiJenkins,
+  SiFigma,
+  SiSlack,
 } from "react-icons/si";
 
 function Toolstack() {
@@ -21,22 +22,25 @@ function Toolstack() {
         <SiVisualstudiocode />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSpyderide />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiAnaconda />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiKaggle />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiJupyter />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <DiGit />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiGithub />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPostman />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <SiDocker />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiJenkins />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiFigma />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiSlack />
       </Col>
     </Row>
   );

@@ -1,6 +1,6 @@
 # Personal Portfolio Website
 
-Welcome to my portfolio website repository! This website showcases my journey as a Data Scientist, featuring my projects, skills, and professional experience in data analysis and machine learning.
+Welcome to my portfolio website repository! This website showcases my journey as a Software Engineer, highlighting my projects, technical skills, and professional experience in software development and engineering.
 
 ## 🚀 Live Demo
 

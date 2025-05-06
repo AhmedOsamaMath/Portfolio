@@ -1,25 +1,21 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { FaRProject } from "react-icons/fa";
-import { RiFileExcel2Fill } from "react-icons/ri";
-import { DiPython, DiJavascript1, DiPhp, DiMongodb } from "react-icons/di";
+import { DiPython, DiJavascript1, DiJava, DiPhp, DiMongodb, DiNodejs, DiReact } from "react-icons/di";
 import {
   SiMysql,
   SiPostgresql,
-  SiPandas,
-  SiNumpy,
-  SiPlotly,
-  SiTableau,
-  SiScikitlearn,
-  SiScipy,
-  SiKeras,
-  SiTensorflow,
-  SiPytorch,
-  SiStreamlit,
-  SiFlask,
-  SiDash,
-  SiApachespark,
-  SiApachehadoop,
+  SiDocker,
+  SiGit,
+  SiGithub,
+  SiLinux,
+  SiJenkins,
+  SiVisualstudiocode,
+  SiTypescript,
+  SiNextdotjs,
+  SiExpress,
+  SiAmazonaws,
+  SiFirebase,
+  SiNginx
 } from "react-icons/si";
 
 const TechCategory = ({ title, children }) => (
@@ -42,45 +38,38 @@ function Techstack() {
     <div>
       <TechCategory title="Programming Languages">
         <TechIcon><DiPython /></TechIcon>
-        <TechIcon><FaRProject /></TechIcon>
         <TechIcon><DiJavascript1 /></TechIcon>
+        <TechIcon><SiTypescript /></TechIcon>
+        <TechIcon><DiJava /></TechIcon>
         <TechIcon><DiPhp /></TechIcon>
+      </TechCategory>
+
+      <TechCategory title="Frontend Development">
+        <TechIcon><DiReact /></TechIcon>
+        <TechIcon><SiNextdotjs /></TechIcon>
+      </TechCategory>
+
+      <TechCategory title="Backend & APIs">
+        <TechIcon><DiNodejs /></TechIcon>
+        <TechIcon><SiExpress /></TechIcon>
+        <TechIcon><SiNginx /></TechIcon>
       </TechCategory>
 
       <TechCategory title="Databases">
         <TechIcon><SiMysql /></TechIcon>
         <TechIcon><SiPostgresql /></TechIcon>
         <TechIcon><DiMongodb /></TechIcon>
+        <TechIcon><SiFirebase /></TechIcon>
       </TechCategory>
 
-      <TechCategory title="Data Processing & Analysis">
-        <TechIcon><SiPandas /></TechIcon>
-        <TechIcon><SiNumpy /></TechIcon>
-        <TechIcon><RiFileExcel2Fill /></TechIcon>
-      </TechCategory>
-
-      <TechCategory title="Data Visualization">
-        <TechIcon><SiPlotly /></TechIcon>
-        <TechIcon><SiTableau /></TechIcon>
-      </TechCategory>
-
-      <TechCategory title="Machine Learning & AI">
-        <TechIcon><SiScikitlearn /></TechIcon>
-        <TechIcon><SiScipy /></TechIcon>
-        <TechIcon><SiKeras /></TechIcon>
-        <TechIcon><SiTensorflow /></TechIcon>
-        <TechIcon><SiPytorch /></TechIcon>
-      </TechCategory>
-
-      <TechCategory title="Web Frameworks">
-        <TechIcon><SiStreamlit /></TechIcon>
-        <TechIcon><SiFlask /></TechIcon>
-        <TechIcon><SiDash /></TechIcon>
-      </TechCategory>
-
-      <TechCategory title="Big Data">
-        <TechIcon><SiApachespark /></TechIcon>
-        <TechIcon><SiApachehadoop /></TechIcon>
+      <TechCategory title="DevOps & Tools">
+        <TechIcon><SiDocker /></TechIcon>
+        <TechIcon><SiJenkins /></TechIcon>
+        <TechIcon><SiAmazonaws /></TechIcon>
+        <TechIcon><SiGit /></TechIcon>
+        <TechIcon><SiGithub /></TechIcon>
+        <TechIcon><SiLinux /></TechIcon>
+        <TechIcon><SiVisualstudiocode /></TechIcon>
       </TechCategory>
     </div>
   );
