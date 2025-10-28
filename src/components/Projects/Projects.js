@@ -6,6 +6,7 @@ import wuzzufDataset from "../../Assets/Projects/wuzzuf-dataset.png";
 import titanic from "../../Assets/Projects/titanic.png";
 import chess from "../../Assets/Projects/chess.png";
 import snake from "../../Assets/Projects/snake.png";
+import albossla from "../../Assets/Projects/albossla.png";
 
 function Projects() {
   return (
@@ -52,6 +53,15 @@ function Projects() {
               title="Chess Game ♟"
               description="Developed a basic chess game in Python using Pygame. The project includes a graphical user interface, fundamental chess logic, and a simple computer AI opponent. Features like check/checkmate detection and piece movement validation are implemented, with plans for future enhancements including advanced AI and special chess moves."
               githubLink="https://github.com/AhmedOsamaMath/chess-game"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={albossla}
+              title="موقع البوصلة الأخباري"
+              description="البوصلة منصة إخبارية عربية تقدم آخر الأخبار السياسية والاقتصادية والتكنولوجية والرياضية والفنية والصحية وأخبار الجيمينج والسيارات واللايف ستايل، بمصداقية وموضوعية، لتواكب القارئ العربي لحظة بلحظة من مصر والعالم"
+              githubLink="https://albossla.com"
             />
           </Col>
         </Row>
