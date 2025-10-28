@@ -15,6 +15,17 @@ function ProjectCards(props) {
           {props.description}
         </Card.Text>
 
+        {props.albosslaLink && (
+          <Button
+            variant="primary"
+            href={props.albosslaLink}
+            target="_blank"
+          >
+            <BsGithub /> &nbsp;
+            {"البوصلة منصة إخبارية عربية شاملة تقدم آخر الأخبار العاجلة والتقارير في مصر والعالم"}
+          </Button>
+        )}
+
         {props.githubLink && (
           <Button
             variant="primary"
